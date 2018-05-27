@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER SECTION CSS */
+
+#hero-header-img{
+  height: 540px;
+  width: 100vw;
+  background-color: green;
+  background-image: url("../images/header.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header-text-container{
+  color: #fff;
+  display: inline-block;
+  float: right;
+  position: absolute;
+  top: 70px;
+  right: 50px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header-text-line-1{
+ font-size: 32px;
+ font-weight: 300;
+ margin-bottom: 15px;
+}
+
+.header-text-line-2, .header-text-line-3{
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 48px;
+}
+/* END HEADER SECTION CSS */
+
+
+/* MAIN SECTION CSS */
+
+#section-container{
+  width: 100vw;
+  padding-top: 60px;
+}
+
+.column{
+  float: left;
+  padding: 10px;
+}
+
+.left{
+  width: 25%;
+}
+
+.right{
+  width: 75%;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.image-container{
+  float: left;
+  padding-right: 15px;
+}
+
+
+#col-left-wrapper{
+  background: linear-gradient(#ebeced, #d1d5d6);
+  height: 700px;
+
+}
+
+.side-menu a{
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #9ba0a4;
+  line-height: 60px;
+  padding-left: 150px;
+
+}
+
+
+
+.side-menu ul li{
+  list-style-type: none;
+  display: block;
+  padding: 10px;
+  border-bottom: 2px solid #fff;
+}
+
+.side-menu ul li:hover {
+  background: white;
+  transition: linear all 0.3s;
+  color: #36abe1;
+}
+
+.side-menu ul li a:hover{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #36abe1;
+  line-height: 60px;
+  box-shadow: 10px 0px 0px #E7E5E5;
+}
+
+.selected{
+  background: color: #36abe1;
+}
+
+.side-menu:hover{
+  color: #36abe1;
+}
+
+.right-col-heading-text{
+  padding-top: 10px;
+  padding-bottom: 24px;
+
+}
+
+
+.heading-text-title{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: #36abe1;
+  line-height: 20px;
+  margin-bottom: 5px;
+
+}
+
+.heading-text-sub-head{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #5c6366;
+  line-height: 20px;
+}
+
+.step-text{
+ font-family: 'Helvetica', sans-serif;
+ font-size: 13px;
+ color: #65686f;
+ line-height: 18px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
